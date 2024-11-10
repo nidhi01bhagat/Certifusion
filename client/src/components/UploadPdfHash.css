@@ -1,0 +1,50 @@
+/* client/src/components/UploadPdfHash.css */
+
+.container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    max-width: 400px; /* Set a max-width for the container */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center align text and children */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+}
+
+h3 {
+    color: #fff; /* White color for the header */
+}
+
+input {
+    width: 80%; /* Width for input field */
+    padding: 10px; /* Padding for aesthetics */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid white; /* White border */
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent input background */
+    backdrop-filter: blur(10px); /* Blur for glass effect */
+    color: #fff; /* White text for input */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none; /* No outline on focus */
+    border-color: burlywood; /* Border color change on focus */
+}
+
+.hash-output {
+    color: #fff; /* White color for hash output */
+    margin-top: 10px; /* Space above the hash output */
+}
+
+.display {
+    font-size: 12px; /* Smaller font size */
+    word-wrap: break-word; /* Wrap text if it's too long */
+    color: burlywood;
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%; /* Ensure it stays within the container */
+    overflow-wrap: break-word; /* Break long words if needed */
+  }

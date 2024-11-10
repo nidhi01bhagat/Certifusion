@@ -1,0 +1,54 @@
+/* client/src/components/VerifyCertificate.css */
+
+.container {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    max-width: 400px; /* Set a max-width for the container */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center align text and children */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+}
+
+h3 {
+    color: #fff; /* White color for the header */
+}
+
+input {
+    width: 80%; /* Width for input field */
+    padding: 10px; /* Padding for aesthetics */
+    margin: 10px 0; /* Margin for spacing */
+    border: 1px solid white; /* White border */
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent input background */
+    backdrop-filter: blur(10px); /* Blur for glass effect */
+    color: #fff; /* White text for input */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none; /* No outline on focus */
+    border-color: burlywood; /* Border color change on focus */
+}
+
+button {
+    background-color: #0a0a0a; /* Dark background for button */
+    color: white; /* White text for button */
+    padding: 10px 15px; /* Button padding */
+    border: #ccc solid 1px; /* Button border */
+    border-radius: 4px; /* Rounded button corners */
+    cursor: pointer; /* Pointer on hover */
+    margin-top: 10px; /* Margin above button */
+    width: 80%; /* Button width same as input */
+}
+
+button:hover {
+    background-color: burlywood; /* Button hover effect */
+}
+
+.status {
+    color: #fff; 
+    font-size: 20px;
+}

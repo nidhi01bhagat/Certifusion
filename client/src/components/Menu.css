@@ -1,0 +1,33 @@
+/* client/src/components/Menu.css */
+nav {
+    background-color: black;
+    padding: 10px 20px;
+    border-bottom: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    border-radius: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+    transition: transform 0.3s ease; /* Transition for smooth movement */
+}
+
+nav ul li:hover {
+    transform: translateY(-5px); /* Move the list item up on hover */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: burlywood;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: azure;
+}
